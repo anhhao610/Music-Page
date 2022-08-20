@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="./assets/font/fontawesome-free/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="shortcut icon" href="./assets/img/web-img.png" type="image/x-icon">
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="player">
+      <!-- Dashboard -->
+      <div class="dashboard">
+        <!-- Header -->
+        <header>
+          <h4>Now playing:</h4>
+          <h2>Nhạc của Hào</h2>
+        </header>
+    
+        <!-- CD -->
+        <div class="cd">
+          <div class="cd-thumb" style="background-image: url('./assets/img/avt.jpg')">
+          </div>
+        </div>
+    
+        <!-- Control -->
+        <div class="control">
+          <div class="btn btn-repeat">
+            <i class="fas icon fa-redo"></i>
+          </div>
+          <div class="btn btn-prev">
+            <i class="fas icon fa-step-backward"></i>
+          </div>
+          <div class="btn btn-toggle-play">
+            <i class="fas main-icon fa-pause icon-pause"></i>
+            <i class="fas main-icon fa-play icon-play"></i>
+          </div>
+          <div class="btn btn-next">
+            <i class="fas icon fa-step-forward"></i>
+          </div>
+          <div class="btn btn-random">
+            <i class="fas icon fa-random"></i>
+          </div>
+        </div>
+    
+        <div class="progress-area">
+          <div class="progress-bar">
+             <div class="progress"></div>
+          </div>
+          
+          <div class="timer">
+             <span id="begin"></span>
+             <span id="end"></span>
+          </div>
+       </div>
+        <!-- <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100"> -->
+       
+        <!-- Volume -->
+        <div class="volume-area">
+          <div class="btn btn-volume">
+            <i class="fa-solid volume-on volume-icon icon fa-volume-low active"></i>
+            <i class="fa-solid volume-off volume-icon icon fa-volume-xmark"></i>
+          </div>
+          <div class="volume-bar">
+            <div class="volume"></div>
+          </div>
+        </div>
+
+        <audio id="audio" src=""></audio>
+      </div>
+    
+      <!-- Playlist -->
+      <div class="playlist">
+  
+      </div>
+
+      <div class="switch-playlist">
+        <div class="switch-playlist-btn">
+          <button class="list-song vn-song-btn active">Vietnamese</button>
+          <button class="list-song lofi-song-btn">Lofi</button>
+        </div>
+      </div>
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>
+
