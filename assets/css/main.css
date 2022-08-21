@@ -406,7 +406,7 @@
   font-size: 16px;
   color: #ebebeb;
   width: 100%;
-  background: -webkit-linear-gradient(287deg, #f5b08d 0%, #f8c899 75%);
+  background: -webkit-linear-gradient(287deg, #f3789f 25%, #f78ba8 50%);
   border: none;
   height: 50px;
 }
@@ -418,5 +418,5 @@
   border-top-right-radius: 4px;
 }
 .list-song.active {
-  background: -webkit-linear-gradient(287deg, #654ea3 0%, #dea8dc 75%);
+  background: -webkit-linear-gradient(287deg, #f29c46 0%, #f9c179 75%);
 }
