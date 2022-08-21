@@ -22,7 +22,7 @@ const volumeIcon = $('.volume-icon')
 const volumeBar = $('.volume-bar')
 const volumeOn = $('.volume-on')
 const volumeOff = $('.volume-off')
-const volumeBtn = $('.click-volume')
+const volumeBtn = $('.btn-volume')
 const PLAYER_STORAGE_KEY = 'HAO_PLAYER'
 
 let randomArray = []
@@ -318,11 +318,7 @@ const app = {
                 audio.volume = 0.5
             }
         }
-
-        volumeIcon.onclick = () => {
-            audio.muted = !audio.muted;
-        }
-
+        
         // Mouse down event
         volumeBar.onmousedown = (e) => {
             isHoldingVolume = true;
