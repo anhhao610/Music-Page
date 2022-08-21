@@ -1,7 +1,8 @@
-/* Mobile and Tablet */
+/* Mobile*/
 @media (max-width: 46.1875em) {
     .playlist {
         width: 100%;
+        margin-top: 440px;
     }
 
     .switch-playlist {
@@ -10,6 +11,14 @@
 
     .song {
         padding: 8px 25px;
+    }
+
+    .volume-bar, .progress-bar {
+        height: 8px;
+    }
+
+    .volume-bar {
+        height: 7px;
     }
 }
 

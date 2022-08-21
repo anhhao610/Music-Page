@@ -229,6 +229,7 @@
 
   .btn-volume .icon {
     font-size: 1.1rem;
+    padding: 4px;
   }
 
   .volume-bar:hover .volume::after,

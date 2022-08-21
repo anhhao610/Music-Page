@@ -22,6 +22,7 @@ const volumeIcon = $('.volume-icon')
 const volumeBar = $('.volume-bar')
 const volumeOn = $('.volume-on')
 const volumeOff = $('.volume-off')
+const volumeBtn = $('.volume-area')
 const PLAYER_STORAGE_KEY = 'HAO_PLAYER'
 
 let randomArray = []
@@ -302,7 +303,21 @@ const app = {
                 volumeOff.classList.remove('active')
                 volumeOn.classList.add('active')
             }
-            $('.volume').style.width = `${audio.volume*100}%`;
+            $('.volume').style.width = `${audio.volume*100}%`
+        }
+
+        //Chạm vào icon loa 
+        volumeBtn.onclick = function() {
+            if (audio.volume > 0) {
+                volumeOn.classList.remove('active')
+                volumeOff.classList.add('active')
+                audio.volume = 0
+            } else {
+                volumeOff.classList.remove('active')
+                volumeOn.classList.add('active')
+                audio.volume = 0.5
+            }
+            console.log('ok')
         }
 
         volumeIcon.onclick = () => {
