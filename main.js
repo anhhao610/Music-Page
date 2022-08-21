@@ -22,7 +22,7 @@ const volumeIcon = $('.volume-icon')
 const volumeBar = $('.volume-bar')
 const volumeOn = $('.volume-on')
 const volumeOff = $('.volume-off')
-const volumeBtn = $('.btn-volume')
+const volumeBtn = $('.click-volume')
 const PLAYER_STORAGE_KEY = 'HAO_PLAYER'
 
 let randomArray = []
