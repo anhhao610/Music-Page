@@ -22,7 +22,7 @@ const volumeIcon = $('.volume-icon')
 const volumeBar = $('.volume-bar')
 const volumeOn = $('.volume-on')
 const volumeOff = $('.volume-off')
-const volumeBtn = $('.volume-area')
+const volumeBtn = $('.btn-volume')
 const PLAYER_STORAGE_KEY = 'HAO_PLAYER'
 
 let randomArray = []
@@ -317,7 +317,6 @@ const app = {
                 volumeOn.classList.add('active')
                 audio.volume = 0.5
             }
-            console.log('ok')
         }
 
         volumeIcon.onclick = () => {
