@@ -15,6 +15,7 @@ const preBtn = $('.btn-prev')
 const nextBtn = $('.btn-next')
 const randomBtn = $('.btn-random i')
 const vnBtn = $('.vn-song-btn')
+const vn2Btn = $('.vn2-song-btn')
 const lofiBtn = $('.lofi-song-btn')
 const repeatBtn = $('.btn-repeat i')
 const volumeIcon = $('.volume-icon');
@@ -47,6 +48,57 @@ const app = {
 
     songs: {
     vn: [
+        {
+            name: 'Giản đơn',
+            singer: 'NHA ft Ry2c',
+            path: './assets/music/Gian-don.mp4',
+            image: './assets/img/gian-don.png',
+        },
+        {
+            name: 'Đừng là gì cả',
+            singer: 'NHA',
+            path: './assets/music/Dung-la-gi-ca.mp4',
+            image: './assets/img/dung-la-gi-ca.png',
+        },
+        {
+            name: 'Nếu không thể yêu thì ta cũng sẽ từng là bạn',
+            singer: 'NHA',
+            path: './assets/music/Khong-the-yeu-thi-ta-se-tung-la-ban.mp4',
+            image: './assets/img/khong-the-yeu-thi-ta-se-tung-la-ban.png',
+        },
+        {
+            name: 'Ngoài ô cửa sổ! Có mưa',
+            singer: 'NHA ft Ái',
+            path: './assets/music/Ngoai-o-cua-so-co-mua.mp4',
+            image: './assets/img/ngoai-o-cua-so-co-mua.png',
+        },
+        
+        {
+            name: 'Ngoại lệ của anh',
+            singer: 'Mad.P ft NHA',
+            path: './assets/music/Ngoai-le-cua-anh.mp4',
+            image: './assets/img/ngoai-le-cua-anh.png',
+        },
+        {
+            name: 'Dừng lại',
+            singer: 'NHA',
+            path: './assets/music/Dung-lai.mp4',
+            image: './assets/img/dung-lai.png',
+        },
+        {
+            name: 'Luyến',
+            singer: 'NHA ft MDr',
+            path: './assets/music/Luyen.mp4',
+            image: './assets/img/luyen.png',
+        },
+        {
+            name: 'Cỏ gió và mây',
+            singer: 'NHA ft Kim Nguyễn',
+            path: './assets/music/Co-gio-va-may.mp4',
+            image: './assets/img/co-gio-va-may.png',
+        }
+    ],
+    vn2: [
         {
             name: 'Giản đơn',
             singer: 'NHA ft Ry2c',
@@ -415,6 +467,7 @@ const app = {
 
          //xử lý đổi list bài hát
         vnBtn.onclick = function() {
+            vn2Btn.classList.remove('active')
             lofiBtn.classList.remove('active')
             vnBtn.classList.add('active')
             _this.currentList = 'vn'
@@ -424,8 +477,20 @@ const app = {
             audio.play()
             _this.scrollToActiveSong()
         } 
+        vn2Btn.onclick = function() {
+            vnBtn.classList.remove('active')
+            lofiBtn.classList.remove('active')
+            vn2Btn.classList.add('active')
+            _this.currentList = 'vn2'
+            _this.currentIndex = 0
+            _this.loadCurrentSong()
+            _this.render()
+            audio.play()
+            _this.scrollToActiveSong()
+        }
         lofiBtn.onclick = function() {
             vnBtn.classList.remove('active')
+            vn2Btn.classList.remove('active')
             lofiBtn.classList.add('active')
             _this.currentList = 'lofi'
             _this.currentIndex = 0

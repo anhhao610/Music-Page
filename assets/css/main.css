@@ -413,7 +413,7 @@
 .list-song:first-child {
   border-top-left-radius: 4px;
 }
-.list-song:nth-child(2) {
+.list-song:nth-child(3) {
   border-top-right-radius: 4px;
 }
 .list-song.active {

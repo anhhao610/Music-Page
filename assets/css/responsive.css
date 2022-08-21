@@ -1,0 +1,27 @@
+/* Mobile and Tablet */
+@media (max-width: 46.1875em) {
+    .playlist {
+        width: 100%;
+    }
+
+    .switch-playlist {
+        bottom: -4px;
+    }
+
+    .song {
+        padding: 8px 25px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    .playlist {
+        width: 480px;
+        max-width: 100%;
+        margin-top: 30%;
+    }
+
+    .wrap {
+        height: 1500px;
+    }
+}
