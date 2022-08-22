@@ -73,7 +73,6 @@ const app = {
             path: './assets/music/Ngoai-o-cua-so-co-mua.mp4',
             image: './assets/img/ngoai-o-cua-so-co-mua.png',
         },
-        
         {
             name: 'Ngoại lệ của anh',
             singer: 'Mad.P ft NHA',
@@ -97,7 +96,67 @@ const app = {
             singer: 'NHA ft Kim Nguyễn',
             path: './assets/music/Co-gio-va-may.mp4',
             image: './assets/img/co-gio-va-may.png',
-        }
+        },
+        {
+            name: 'Nếu màn hình đó không phải là em',
+            singer: 'NHA',
+            path: './assets/music/Neu-man-hinh-do-khong-phai-la-em.mp4',
+            image: './assets/img/neu-man-hinh-do-khong-phai-la-em.png',
+        },
+        {
+            name: 'Tôi và em',
+            singer: 'Pink Frog',
+            path: './assets/music/Toi-va-em.mp4',
+            image: './assets/img/toi-va-em.png',
+        },
+        {
+            name: 'Đến bao giờ',
+            singer: 'Cá Hồi Hoang ft Datmaniac',
+            path: './assets/music/Den-bao-gio.mp4',
+            image: './assets/img/den-bao-gio.png',
+        },
+        {
+            name: 'Tầng thượng 102',
+            singer: 'Cá Hồi Hoang',
+            path: './assets/music/Tang-thuong.mp4',
+            image: './assets/img/tang-thuong.png',
+        },
+        {
+            name: 'RAIN IN 7',
+            singer: 'LIL SHADY',
+            path: './assets/music/Rain-in-7.mp4',
+            image: './assets/img/rain-in-7.png',
+        },
+        {
+            name: 'Thôi ra vườn nằm cho quen với mùi đất',
+            singer: 'Hải Sâm',
+            path: './assets/music/Thoi-ra-vuon-nam-cho-quen-voi-mui-dat.mp4',
+            image: './assets/img/music.jpg',
+        },
+        {
+            name: 'Thế thôi',
+            singer: 'Hải Sâm',
+            path: './assets/music/The-thoi.mp4',
+            image: './assets/img/music.jpg',
+        },
+        {
+            name: 'Bạn',
+            singer: 'RHY',
+            path: './assets/music/Ban.mp4',
+            image: './assets/img/music.jpg',
+        },
+        {
+            name: 'Lần cuối',
+            singer: 'RHY ft Dick',
+            path: './assets/music/Lan-cuoi.mp4',
+            image: './assets/img/music.jpg',
+        },
+        {
+            name: 'Em có bạn trai rồi',
+            singer: 'Cáo',
+            path: './assets/music/Em-co-ban-trai-roi.mp4',
+            image: './assets/img/music.jpg',
+        },
     ],
     vn2: [
         {
