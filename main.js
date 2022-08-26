@@ -130,8 +130,8 @@ const app = {
         {
             name: 'Thôi ra vườn nằm cho quen với mùi đất',
             singer: 'Hải Sâm',
-            path: './assets/music/Thoi-ra-vuon-nam-cho-quen-voi-mui-dat.mp4',
-            image: './assets/img/music.jpg',
+            path: './assets/music/thoi-ra-vuon-nam-cho-quen-voi-mui-dat.mp4',
+            image: './assets/img/thoi-ra-vuon-nam-cho-quen-voi-mui-dat.png',
         },
         {
             name: 'Thế thôi',
