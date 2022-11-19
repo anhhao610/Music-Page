@@ -88,6 +88,7 @@
   }
   
   .cd-thumb {
+    border: 1px solid #444;
     position: relative;
     display: flex;
     align-items: center;
