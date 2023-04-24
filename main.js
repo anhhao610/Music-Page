@@ -56,6 +56,12 @@ const app = {
             image: './assets/img/gian-don.png',
         },
         {
+            name: 'Khi người lớn cô đơn',
+            singer: 'Phạm Hồng Phước',
+            path: './assets/music/Khi-nguoi-lon-co-don.mp4',
+            image: './assets/img/khi-nguoi-lon-co-don.png',
+        },
+        {
             name: 'Đừng là gì cả',
             singer: 'NHA',
             path: './assets/music/Dung-la-gi-ca.mp4',
